@@ -8,7 +8,7 @@
 static dispatch_once_t oncePredicate;
 
 + (WoWApiClient *)sharedClient
-{
+{ // test change
     static WoWApiClient *_sharedClient;
     // per Apple doing this once via GCD protects against race conditions
     dispatch_once(&oncePredicate, ^{
