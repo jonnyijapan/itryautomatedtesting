@@ -64,11 +64,22 @@
 		FB14C6F517685EEB00AD03A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		FB14C6F617685EEB00AD03A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		FB14C6FC17685EEB00AD03A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB14C6FA17685EEB00AD03A0 /* InfoPlist.strings */; };
-		FB14C6FF17685EEB00AD03A0 /* GuildBrowserLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14C6FE17685EEB00AD03A0 /* GuildBrowserLogicTests.m */; };
+		FB14C706176860B800AD03A0 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14C705176860B800AD03A0 /* WowUtilsTests.m */; };
+		FB14C7071768629900AD03A0 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
+		FB14C7081768629900AD03A0 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
+		FB14C7091768629900AD03A0 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
+		FB14C70A1768629900AD03A0 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
+			remoteInfo = GuildBrowser;
+		};
+		FB14C70B176862A900AD03A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
 			proxyType = 1;
@@ -161,9 +172,9 @@
 		FB14C6F317685EEB00AD03A0 /* GuildBrowserLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB14C6F917685EEB00AD03A0 /* GuildBrowserLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserLogicTests-Info.plist"; sourceTree = "<group>"; };
 		FB14C6FB17685EEB00AD03A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FB14C6FD17685EEB00AD03A0 /* GuildBrowserLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuildBrowserLogicTests.h; sourceTree = "<group>"; };
-		FB14C6FE17685EEB00AD03A0 /* GuildBrowserLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuildBrowserLogicTests.m; sourceTree = "<group>"; };
 		FB14C70017685EEB00AD03A0 /* GuildBrowserLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowserLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		FB14C704176860B800AD03A0 /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
+		FB14C705176860B800AD03A0 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,9 +398,9 @@
 		FB14C6F717685EEB00AD03A0 /* GuildBrowserLogicTests */ = {
 			isa = PBXGroup;
 			children = (
-				FB14C6FD17685EEB00AD03A0 /* GuildBrowserLogicTests.h */,
-				FB14C6FE17685EEB00AD03A0 /* GuildBrowserLogicTests.m */,
 				FB14C6F817685EEB00AD03A0 /* Supporting Files */,
+				FB14C704176860B800AD03A0 /* WowUtilsTests.h */,
+				FB14C705176860B800AD03A0 /* WowUtilsTests.m */,
 			);
 			path = GuildBrowserLogicTests;
 			sourceTree = "<group>";
@@ -455,6 +466,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FB14C70C176862A900AD03A0 /* PBXTargetDependency */,
 			);
 			name = GuildBrowserLogicTests;
 			productName = GuildBrowserLogicTests;
@@ -609,7 +621,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB14C6FF17685EEB00AD03A0 /* GuildBrowserLogicTests.m in Sources */,
+				FB14C7071768629900AD03A0 /* Character.m in Sources */,
+				FB14C7081768629900AD03A0 /* Guild.m in Sources */,
+				FB14C7091768629900AD03A0 /* Item.m in Sources */,
+				FB14C70A1768629900AD03A0 /* WoWUtils.m in Sources */,
+				FB14C706176860B800AD03A0 /* WowUtilsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +636,11 @@
 			isa = PBXTargetDependency;
 			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
 			targetProxy = CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */;
+		};
+		FB14C70C176862A900AD03A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
+			targetProxy = FB14C70B176862A900AD03A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
