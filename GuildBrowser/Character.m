@@ -6,6 +6,7 @@
 
 - (id)initWithCharacterDetailData:(NSDictionary *)data
 {
+	
     self = [super init];
     if (self)
     {
