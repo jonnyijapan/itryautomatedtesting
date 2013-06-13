@@ -72,6 +72,7 @@
 		FB14C710176863A600AD03A0 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = FB14C70E176863A600AD03A0 /* character.json */; };
 		FB14C711176863A600AD03A0 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = FB14C70F176863A600AD03A0 /* guild.json */; };
 		FB14C714176863BE00AD03A0 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14C713176863BE00AD03A0 /* CharacterTests.m */; };
+		FB14C71617695DE400AD03A0 /* guild_adhoc_1.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = FB14C71517695DE400AD03A0 /* guild_adhoc_1.mobileprovision */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +183,7 @@
 		FB14C70F176863A600AD03A0 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		FB14C712176863BE00AD03A0 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
 		FB14C713176863BE00AD03A0 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		FB14C71517695DE400AD03A0 /* guild_adhoc_1.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = guild_adhoc_1.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				FB14C71517695DE400AD03A0 /* guild_adhoc_1.mobileprovision */,
 				FB14C70D176863A600AD03A0 /* testdata */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
@@ -547,6 +550,7 @@
 				CB9FDD1315E9B31400B3713E /* profile_shield@2x.png in Resources */,
 				CB9FDD1415E9B31400B3713E /* toolbar.png in Resources */,
 				CB9FDD1515E9B31400B3713E /* toolbar@2x.png in Resources */,
+				FB14C71617695DE400AD03A0 /* guild_adhoc_1.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
