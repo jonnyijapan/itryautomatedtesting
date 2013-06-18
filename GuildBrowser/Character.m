@@ -6,7 +6,6 @@
 
 - (id)initWithCharacterDetailData:(NSDictionary *)data
 {
-	xxxxxxxxxx this will break the build
     self = [super init];
     if (self)
     {
